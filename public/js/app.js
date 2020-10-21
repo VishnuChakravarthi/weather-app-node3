@@ -15,6 +15,7 @@ form.addEventListener("submit", (e) => {
     response.json().then((response) => {
       if (response.error) {
         messageOne.textContent = response.error;
+        messageTwo.textContent = "";
         return;
       }
       messageOne.textContent = response.location;

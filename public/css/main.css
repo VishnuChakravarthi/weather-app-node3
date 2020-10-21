@@ -1,5 +1,12 @@
+.header {
+  padding: 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+
 .ui.footer.form-page {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  text-align: center;
+  /* width: 100%; */
 }

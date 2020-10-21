@@ -19,19 +19,19 @@ app.use(express.static(staticDir));
 
 app.get("", (req, res) => {
   res.render("index", {
-    name: "Vishnu",
+    name: "NVC",
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    name: "Vishnu",
+    name: "NVC",
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    name: "Vishnu",
+    name: "NVC",
   });
 });
 
